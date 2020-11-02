@@ -1,11 +1,8 @@
-# About
+### About
 This allows you to see the browsing history of Qiita.com.
 
-# Install
+### Install
 Clone this repository.
-```
-git clone https://github.com/umechanhika/qiita-browsing-history.git
-```
 
 Access `chrome://extensions/` in Chrome Browser.
 
