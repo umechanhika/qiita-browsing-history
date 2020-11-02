@@ -1,0 +1,19 @@
+{
+    "name": "Qiita Browsing Hisotry",
+    "version": "1.0.0",
+    "description": "This extension displays Qiita browsing history.",
+    "manifest_version": 2,
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "storage"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Qiita Browsing History",
+        "default_popup": "popup.html"
+    }
+}
